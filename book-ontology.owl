@@ -1,411 +1,359 @@
 <?xml version="1.0"?>
-<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+<rdf:RDF xmlns="http://webprotege.stanford.edu/project/CYvifXZ58tPkrf59wMdkSZ#"
      xml:base="http://webprotege.stanford.edu/project/CYvifXZ58tPkrf59wMdkSZ"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
      xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
      xmlns:xml="http://www.w3.org/XML/1998/namespace"
      xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
-     ontologyIRI="http://webprotege.stanford.edu/project/CYvifXZ58tPkrf59wMdkSZ">
-    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
-    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
-    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
-    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
-    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
-    <Declaration>
-        <Class IRI="http://webprotege.stanford.edu/R1PTrMhcb6MoehWt0oz3hR"/>
-    </Declaration>
-    <Declaration>
-        <Class IRI="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9D3DtO4CUvCcyJVQMfAKps"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg"/>
-    </Declaration>
-    <Declaration>
-        <DataProperty IRI="http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7"/>
-    </Declaration>
-    <Declaration>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
-    </Declaration>
-    <Declaration>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-    </Declaration>
-    <SubClassOf>
-        <Class IRI="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
-        <Class IRI="http://webprotege.stanford.edu/R1PTrMhcb6MoehWt0oz3hR"/>
-    </SubClassOf>
-    <ClassAssertion>
-        <Class IRI="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7"/>
-    </ClassAssertion>
-    <ClassAssertion>
-        <Class IRI="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW"/>
-    </ClassAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6"/>
-        <Literal>978-0735224155</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">735224153</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik"/>
-        <Literal>978-0525431992</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">525431993</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9D3DtO4CUvCcyJVQMfAKps"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA"/>
-        <Literal>$16.02</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA"/>
-        <Literal>978-0525536512</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">525536515</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9D3DtO4CUvCcyJVQMfAKps"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP"/>
-        <Literal>$12.88</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP"/>
-        <Literal>978-1771641258</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">1771641258</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9D3DtO4CUvCcyJVQMfAKps"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7"/>
-        <Literal>$15.26</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7"/>
-        <Literal>978-0062316110</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">9780062316110</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9D3DtO4CUvCcyJVQMfAKps"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW"/>
-        <Literal>$15.85</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW"/>
-        <Literal>978-0241351642</Literal>
-    </DataPropertyAssertion>
-    <DataPropertyAssertion>
-        <DataProperty IRI="http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ"/>
-        <NamedIndividual IRI="http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW"/>
-        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">241351642</Literal>
-    </DataPropertyAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/R1PTrMhcb6MoehWt0oz3hR</IRI>
-        <Literal xml:lang="owl 2 web ontology language">Books</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <IRI>http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6</IRI>
-        <Literal>Michael Pollan</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6</IRI>
-        <Literal>May 14, 2019</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
-        <IRI>http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6</IRI>
-        <Literal xml:lang="dc">Paperback</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-        <IRI>http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6</IRI>
-        <Literal>English</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-        <IRI>http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6</IRI>
-        <Literal>Penguin Books</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <IRI>http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6</IRI>
-        <Literal>How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6</IRI>
-        <Literal xml:lang="owl 2 web ontology language">How to Change Your Mind: What the New…</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <IRI>http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik</IRI>
-        <Literal>John Carreyrou</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik</IRI>
-        <Literal>October 29, 2019</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
-        <IRI>http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik</IRI>
-        <Literal>Paperback</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-        <IRI>http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik</IRI>
-        <Literal>English</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-        <IRI>http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik</IRI>
-        <Literal>Vintage</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <IRI>http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik</IRI>
-        <Literal>Bad Blood: Secrets and Lies in a Silicon Valley Startup</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik</IRI>
-        <Literal xml:lang="owl 2 web ontology language">Bad Blood: Secrets and Lies in a Silicon Valley Startup</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/R9D3DtO4CUvCcyJVQMfAKps</IRI>
-        <Literal xml:lang="owl 2 web ontology language">Price</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <IRI>http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA</IRI>
-        <Literal>Cal Newport</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA</IRI>
-        <Literal>February 5, 2019</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
-        <IRI>http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA</IRI>
-        <Literal>Hardcover</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-        <IRI>http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA</IRI>
-        <Literal>English</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-        <IRI>http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA</IRI>
-        <Literal>Portfolio</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <IRI>http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA</IRI>
-        <Literal>Digital Minimalism: Choosing a Focused Life in a Noisy World</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA</IRI>
-        <Literal xml:lang="owl 2 web ontology language">Digital Minimalism: Choosing a Focused Life in a…</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg</IRI>
-        <Literal xml:lang="owl 2 web ontology language">ISBN-13</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs</IRI>
-        <Literal xml:lang="owl 2 web ontology language">Science</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <IRI>http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP</IRI>
-        <Literal>Dr. Jason Fung</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP</IRI>
-        <Literal>March 1, 2016</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
-        <IRI>http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP</IRI>
-        <Literal>Paperback</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-        <IRI>http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP</IRI>
-        <Literal>English</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-        <IRI>http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP</IRI>
-        <Literal>Greystone Books</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <IRI>http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP</IRI>
-        <Literal>The Obesity Code: Unlocking the Secrets of Weight Loss</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP</IRI>
-        <Literal xml:lang="owl 2 web ontology language">The Obesity Code: Unlocking the Secrets of…</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <IRI>http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7</IRI>
-        <Literal>Yuval Noah Harari</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7</IRI>
-        <Literal>May 15, 2018</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
-        <IRI>http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7</IRI>
-        <Literal>Paperback</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-        <IRI>http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7</IRI>
-        <Literal>English</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-        <IRI>http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7</IRI>
-        <Literal>Harper Perennial</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <IRI>http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7</IRI>
-        <Literal>Sapiens: A Brief History of Humankind</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7</IRI>
-        <Literal xml:lang="owl 2 web ontology language">Sapiens: A Brief History of Humankind</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/creator"/>
-        <IRI>http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW</IRI>
-        <Literal>Jordan B. Peterson</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/date"/>
-        <IRI>http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW</IRI>
-        <Literal>January 16, 2018</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/format"/>
-        <IRI>http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW</IRI>
-        <Literal>Paperback</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/language"/>
-        <IRI>http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW</IRI>
-        <Literal>English</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/publisher"/>
-        <IRI>http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW</IRI>
-        <Literal>Allen Lane</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty IRI="http://purl.org/dc/elements/1.1/title"/>
-        <IRI>http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW</IRI>
-        <Literal>12 Rules for Life: An Antidote to Chaos</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW</IRI>
-        <Literal xml:lang="owl 2 web ontology language">12 Rules for Life: An Antidote to Chaos</Literal>
-    </AnnotationAssertion>
-    <AnnotationAssertion>
-        <AnnotationProperty abbreviatedIRI="rdfs:label"/>
-        <IRI>http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ</IRI>
-        <Literal xml:lang="owl 2 web ontology language">ISBN-10</Literal>
-    </AnnotationAssertion>
-</Ontology>
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="http://webprotege.stanford.edu/project/CYvifXZ58tPkrf59wMdkSZ"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/date -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/date"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/format -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/format"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/language -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/language"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9D3DtO4CUvCcyJVQMfAKps -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9D3DtO4CUvCcyJVQMfAKps">
+        <rdfs:label xml:lang="owl 2 web ontology language">Price</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9Ybdzu138YopplO6Co1FAg">
+        <rdfs:label xml:lang="owl 2 web ontology language">ISBN-13</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rs74FJs2g4tUC6fDpQOIdJ">
+        <rdfs:label xml:lang="owl 2 web ontology language">ISBN-10</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1PTrMhcb6MoehWt0oz3hR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1PTrMhcb6MoehWt0oz3hR">
+        <rdfs:label xml:lang="owl 2 web ontology language">Books</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7SFoRSXEnAd7Yfe1jAoUBr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7SFoRSXEnAd7Yfe1jAoUBr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Physics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7j0Tzyc3tJTNDi2tnOJ6gg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7j0Tzyc3tJTNDi2tnOJ6gg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Evolution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWH3TV6HExJxP9NoX796V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWH3TV6HExJxP9NoX796V">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Technology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDEkrOu2QjPfAlvUNaBDdrX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDEkrOu2QjPfAlvUNaBDdrX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Astronomy &amp; Space Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R1PTrMhcb6MoehWt0oz3hR"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Science</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZ56R8XV6LEWWY4TIoHLJ1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZ56R8XV6LEWWY4TIoHLJ1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDzPsRS9thssORx8h5UzWNs"/>
+        <rdfs:label xml:lang="owl 2 web ontology language">Research</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1rhTUdepDicGSy0XSsCvY -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R1rhTUdepDicGSy0XSsCvY">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDEkrOu2QjPfAlvUNaBDdrX"/>
+        <webprotege:R9D3DtO4CUvCcyJVQMfAKps rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$13.26</webprotege:R9D3DtO4CUvCcyJVQMfAKps>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0393609394</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9780393609394</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Neil deGrasse Tyson</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May 2, 2017</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">W. W. Norton &amp; Company</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Astrophysics for People in a Hurry</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">Astrophysics for People in a Hurry</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7yk2MRXLi9GHQsE6duY7O6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7SFoRSXEnAd7Yfe1jAoUBr"/>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0735224155</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">735224153</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Michael Pollan</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May 14, 2019</dc:date>
+        <dc:format xml:lang="dc">Paperback</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Penguin Books</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">How to Change Your Mind: What the New Science of Psychedelics Teaches Us About Consciousness, Dying, Addiction, Depression, and Transcendence</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">How to Change Your Mind: What the New…</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8ZZJ6de9wWfSVyQQdrarik">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWH3TV6HExJxP9NoX796V"/>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0525431992</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">525431993</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">John Carreyrou</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">October 29, 2019</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Vintage</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bad Blood: Secrets and Lies in a Silicon Valley Startup</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">Bad Blood: Secrets and Lies in a Silicon Valley Startup</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9O8ePsYn6BRylQYiwSApeA">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCWH3TV6HExJxP9NoX796V"/>
+        <webprotege:R9D3DtO4CUvCcyJVQMfAKps rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$16.02</webprotege:R9D3DtO4CUvCcyJVQMfAKps>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0525536512</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">525536515</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cal Newport</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">February 5, 2019</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Portfolio</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Digital Minimalism: Choosing a Focused Life in a Noisy World</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">Digital Minimalism: Choosing a Focused Life in a…</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBv1ePMDswFis3riImP2eSa -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBv1ePMDswFis3riImP2eSa">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RZ56R8XV6LEWWY4TIoHLJ1"/>
+        <webprotege:R9D3DtO4CUvCcyJVQMfAKps rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$9.99</webprotege:R9D3DtO4CUvCcyJVQMfAKps>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-1978406940</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1978406940</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">I. C. Robledo</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">November 2, 2017</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CreateSpace Independent Publishing Platform</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Intellectual Toolkit of Geniuses: 40 Principles that Will Make You Smarter and Teach You to Think Like a Genius</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">The Intellectual Toolkit of Geniuses: 40 Principles that Will Make You Smarter and Teach You to Think Like a Genius</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCniD8oYMPLuA31z3wNrqhr -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCniD8oYMPLuA31z3wNrqhr">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7j0Tzyc3tJTNDi2tnOJ6gg"/>
+        <webprotege:R9D3DtO4CUvCcyJVQMfAKps rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$17.99</webprotege:R9D3DtO4CUvCcyJVQMfAKps>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0316230032</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">316230030</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nicholas A. Christakis</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">March 26, 2019</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hardcover</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Little, Brown Spark</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Blueprint: The Evolutionary Origins of a Good Society</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">Blueprint: The Evolutionary Origins of a Good Society</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCv9oDFtZwBmOE8T9Mmm0Lq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RCv9oDFtZwBmOE8T9Mmm0Lq">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDEkrOu2QjPfAlvUNaBDdrX"/>
+        <webprotege:R9D3DtO4CUvCcyJVQMfAKps rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$16.00</webprotege:R9D3DtO4CUvCcyJVQMfAKps>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0517887295</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">517887290</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Graham Hancock</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">April 2, 1996</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Three Rivers Press</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Fingerprints of the Gods</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">Fingerprints of the Gods</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RIQCVB4T71XYofDW1DzKvP">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RZ56R8XV6LEWWY4TIoHLJ1"/>
+        <webprotege:R9D3DtO4CUvCcyJVQMfAKps rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$12.88</webprotege:R9D3DtO4CUvCcyJVQMfAKps>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-1771641258</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1771641258</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dr. Jason Fung</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">March 1, 2016</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Greystone Books</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The Obesity Code: Unlocking the Secrets of Weight Loss</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">The Obesity Code: Unlocking the Secrets of…</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RUaRdNRqtIurGgKxPeFVj7">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7j0Tzyc3tJTNDi2tnOJ6gg"/>
+        <webprotege:R9D3DtO4CUvCcyJVQMfAKps rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$15.26</webprotege:R9D3DtO4CUvCcyJVQMfAKps>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0062316110</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9780062316110</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Yuval Noah Harari</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">May 15, 2018</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Harper Perennial</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sapiens: A Brief History of Humankind</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">Sapiens: A Brief History of Humankind</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RndqBZOdBKU2YG7PsIklYW">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7SFoRSXEnAd7Yfe1jAoUBr"/>
+        <webprotege:R9D3DtO4CUvCcyJVQMfAKps rdf:datatype="http://www.w3.org/2001/XMLSchema#string">$15.85</webprotege:R9D3DtO4CUvCcyJVQMfAKps>
+        <webprotege:R9Ybdzu138YopplO6Co1FAg rdf:datatype="http://www.w3.org/2001/XMLSchema#string">978-0241351642</webprotege:R9Ybdzu138YopplO6Co1FAg>
+        <webprotege:Rs74FJs2g4tUC6fDpQOIdJ rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">241351642</webprotege:Rs74FJs2g4tUC6fDpQOIdJ>
+        <dc:creator rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Jordan B. Peterson</dc:creator>
+        <dc:date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">January 16, 2018</dc:date>
+        <dc:format rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Paperback</dc:format>
+        <dc:language rdf:datatype="http://www.w3.org/2001/XMLSchema#string">English</dc:language>
+        <dc:publisher rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Allen Lane</dc:publisher>
+        <dc:title rdf:datatype="http://www.w3.org/2001/XMLSchema#string">12 Rules for Life: An Antidote to Chaos</dc:title>
+        <rdfs:label xml:lang="owl 2 web ontology language">12 Rules for Life: An Antidote to Chaos</rdfs:label>
+    </owl:NamedIndividual>
+</rdf:RDF>
 
 
 
